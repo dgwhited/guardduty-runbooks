@@ -12,16 +12,16 @@ git config --global user.name "${NAME}"
 
 
 # Test if changes
-git diff --quiet kernels || CHANGES=1
+git diff --quiet runbooks || CHANGES=1
 
 # If changes are present
 if [[ ${CHANGES} -eq 1 ]]; then
 
   # Add and commit
-  echo "git add -A kernels"
-  git add -A kernels
+  echo "git add -A runbooks"
+  git add -A runbooks
 
-  git commit -m 'New Kernels Detected'
+  git commit -m 'New Runbooks Detected'
   
   # Create date var for release name
   TODAY="$(date +'%Y-%m-%d')"
