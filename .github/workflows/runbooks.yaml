@@ -2,7 +2,8 @@ name: runbooks
 
 on:
   schedule:
-    - cron: '48 * * * *'
+    - cron: '55 * * * *'
+  workflow_dispatch:
 
 
 jobs:
