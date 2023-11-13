@@ -1,0 +1,32 @@
+name: runbooks
+
+on:
+  schedule:
+    - cron: '29 * * * *'
+
+
+jobs:
+  runbooks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          token: ${{secrets.PAT}}
+
+      - name: INSTALL - python@3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install guardduty-runbooks
+        run: pip install guardduty-runbooks
+
+      - name: Create Runbooks
+        run: guardduty-runbooks --outdir ./runbooks --overwrite
+
+      - name: Commit and Push
+        run: ./.github/commit-and-push.sh
+        env:
+          NAME: ${{ secrets.NAME }}
+          EMAIL: ${{ secrets.EMAIL }}
