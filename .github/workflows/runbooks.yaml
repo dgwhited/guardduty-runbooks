@@ -2,7 +2,7 @@ name: runbooks
 
 on:
   schedule:
-    - cron: '29 * * * *'
+    - cron: '48 * * * *'
 
 
 jobs:
