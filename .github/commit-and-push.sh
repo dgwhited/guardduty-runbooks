@@ -10,16 +10,17 @@ echo "Current Hash: ${GITHUB_SHA}"
 git config --global user.email "${EMAIL}"
 git config --global user.name "${NAME}"
 
+echo "git add -A runbooks"
+git add -A runbooks
 
 # Test if changes
-git diff --quiet runbooks || CHANGES=1
+git diff HEAD --quiet runbooks || CHANGES=1
 
 # If changes are present
 if [[ ${CHANGES} -eq 1 ]]; then
 
   # Add and commit
-  echo "git add -A runbooks"
-  git add -A runbooks
+
 
   git commit -m 'New Runbooks Detected'
   
