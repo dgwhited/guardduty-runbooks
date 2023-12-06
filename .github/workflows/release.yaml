@@ -11,12 +11,12 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  release-on-push:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.PAT }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Release
-        uses: softprops/action-gh-release@v1
+      - uses: rymndhng/release-on-push-action@master
         with:
-          generate_release_notes: true
+          bump_version_scheme: minor
+          use_github_release_notes: true
