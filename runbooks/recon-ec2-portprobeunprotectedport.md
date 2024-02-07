@@ -10,7 +10,7 @@ Recon:EC2/PortProbeUnprotectedPort
 
 ###### Note
 
-This finding's default severity is Low. However, if the port being probed is used by (9200 or 9300), the finding's severity is High.
+This finding's default severity is Low. However, if the port that is being probed, is used by Elasticsearch (9200 or 9300), the finding's severity is High.
 
 
  * **Data source:** VPC flow logs
@@ -19,6 +19,9 @@ This finding informs you that a port on the listed EC2 instance in your AWS envi
 
 
  If the identified unprotected port is 22 or 3389 and you are using these ports to connect to your instance, you can still limit exposure by allowing access to these ports only to the IP addresses from your corporate network IP address space. To restrict access to port 22 on Linux, see [Authorizing Inbound Traffic for Your Linux Instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/authorizing-access-to-an-instance.html). To restrict access to port 3389 on Windows, see [Authorizing Inbound Traffic for Your Windows Instances](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/authorizing-access-to-an-instance.html).
+
+
+GuardDuty doesn't generate this finding for ports 443 and 80.
 
 
 **Remediation recommendations:**
