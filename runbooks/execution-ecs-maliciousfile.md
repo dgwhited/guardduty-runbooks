@@ -14,5 +14,5 @@ This finding indicates that the GuardDuty Malware Protection scan has detected o
 **Remediation recommendations:**
 
 
-If this activity is unexpected, your container belonging to the ECS cluster may be compromised. For more information, see [Remediating a compromised ECS cluster](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_remediate.html#compromised-ecs).
+If this activity is unexpected, your container belonging to the ECS cluster may be compromised. For more information, see [Remediating a potentially compromised ECS cluster](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ecs.html).
 

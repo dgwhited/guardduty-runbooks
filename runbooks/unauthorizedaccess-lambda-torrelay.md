@@ -16,7 +16,7 @@ This finding informs you that a Lambda function in your AWS environment is makin
 **Remediation recommendations:**
 
 
-If this activity is unexpected, your Lambda function may be compromised. For more information, see [Remediating a compromised Lambda function](https://docs.aws.amazon.com/guardduty/latest/ug/remediate-lambda-protection-finding-types.html).
+If this activity is unexpected, your Lambda function may be compromised. For more information, see [Remediating a potentially compromised Lambda function](https://docs.aws.amazon.com/guardduty/latest/ug/remediate-lambda-protection-finding-types.html).
 
 
 

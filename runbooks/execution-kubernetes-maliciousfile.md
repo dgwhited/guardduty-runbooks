@@ -14,5 +14,5 @@ This finding indicates that the GuardDuty Malware Protection scan has detected o
 **Remediation recommendations:**
 
 
-If this activity is unexpected, your container workload may be compromised. For more information, see [Remediating EKS Audit Log Monitoring findings discovered by GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-kubernetes.html).
+If this activity is unexpected, your container workload may be compromised. For more information, see [Remediating EKS Audit Log Monitoring findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-kubernetes.html).
 
