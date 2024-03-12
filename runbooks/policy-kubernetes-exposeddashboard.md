@@ -18,3 +18,6 @@ This finding informs you that Kubernetes dashboard for your cluster was exposed 
 
 You should ensure that strong authentication and authorization is enforced on Kubernetes Dashboard. You should also implement network access control to restrict access to the dashboard from specific IP addresses. 
 
+
+For more information, see [Remediating EKS Audit Log Monitoring findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-kubernetes.html).
+
