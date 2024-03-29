@@ -13,7 +13,7 @@ The severity of this finding can be either high or low, depending on whether the
 
  * **Feature:** Runtime Monitoring
 
-This finding informs you that a suspicious tool has been executed on an EC2 instance or container within your AWS environment. This includes tools used in pentesting engagements, also known as backdoor tools, network scanners, and network sniffers. All these tools can be used in benign contexts but are also frequently used by threat actors with malicious intent. Observing offensive security tools could indcicate that the associated EC2 instance or container has been compromised. 
+This finding informs you that a suspicious tool has been executed on an EC2 instance or container within your AWS environment. This includes tools used in pentesting engagements, also known as backdoor tools, network scanners, and network sniffers. All these tools can be used in benign contexts but are also frequently used by threat actors with malicious intent. Observing offensive security tools could indicate that the associated EC2 instance or container has been compromised. 
 
 
 GuardDuty examines related runtime activity and context so that it generates this finding only when the associated activity and context are potentially suspicious.
