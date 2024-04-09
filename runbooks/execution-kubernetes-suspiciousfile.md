@@ -8,6 +8,8 @@ Execution:Kubernetes/SuspiciousFile
 **Default severity: Varies depending on the detected threat.**
 
 
+ * **Feature:** EBS Malware Protection
+
 This finding indicates that the GuardDuty Malware Protection scan has detected one or more suspicious files on a container that belongs to a Kubernetes cluster. If this is an EKS managed cluster, the findings' details will provide additional information about the impacted EKS. For more information, see **Threats detected** section in the findings' details.
 
 

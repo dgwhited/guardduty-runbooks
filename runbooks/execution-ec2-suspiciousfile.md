@@ -8,6 +8,8 @@ Execution:EC2/SuspiciousFile
 **Default severity: Varies depending on the detected threat.**
 
 
+ * **Feature:** EBS Malware Protection
+
 This finding indicates that the GuardDuty Malware Protection scan has detected one or more suspicious files on an EC2 instance. For more information, see **Threats detected** section in the findings' details.
 
 

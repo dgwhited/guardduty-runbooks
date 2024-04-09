@@ -8,6 +8,8 @@ Execution:Container/SuspiciousFile
 **Default severity: Varies depending on the detected threat.**
 
 
+ * **Feature:** EBS Malware Protection
+
 This finding indicates that the GuardDuty Malware Protection scan has detected one or more suspicious files on a container with no cluster information. For more information, see **Threats detected** section in the findings' details.
 
 

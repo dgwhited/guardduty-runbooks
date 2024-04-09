@@ -8,6 +8,8 @@ Execution:ECS/MaliciousFile
 **Default severity: Varies depending on the detected threat.**
 
 
+ * **Feature:** EBS Malware Protection
+
 This finding indicates that the GuardDuty Malware Protection scan has detected one or more malicious files on a container workload that belongs to an ECS cluster. For more information, see **Threats detected** section in the findings' details.
 
 
