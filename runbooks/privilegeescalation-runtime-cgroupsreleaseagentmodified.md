@@ -2,7 +2,7 @@ PrivilegeEscalation:Runtime/CGroupsReleaseAgentModified
 -------------------------------------------------------
 
 
-### A container escape through runC was detected in an Amazon EKS cluster.
+### A container escape attempt through CGroups release agent was detected.
 
 
 **Default severity: High**

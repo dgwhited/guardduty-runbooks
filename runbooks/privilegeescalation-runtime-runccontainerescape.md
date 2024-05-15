@@ -2,7 +2,7 @@ PrivilegeEscalation:Runtime/RuncContainerEscape
 -----------------------------------------------
 
 
-### An attempt to gain host access of a container was detected.
+### A container escape attempt through runC was detected.
 
 
 **Default severity: High**
@@ -22,7 +22,7 @@ This finding may also indicate that a malicious actor has potentially executed a
 The runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
 
 
- * 1. [CVE-2019-5736 Detail](https://nvd.nist.gov/vuln/detail/CVE-2019-5736)
+ * [CVE-2019-5736 Detail](https://nvd.nist.gov/vuln/detail/CVE-2019-5736)
 
 **Remediation recommendations:**
 
