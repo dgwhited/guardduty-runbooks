@@ -8,7 +8,7 @@ Persistence:Kubernetes/AnomalousBehavior.WorkloadDeployed!ContainerWithSensitive
 **Default severity: High**
 
 
- * **Feature:** Kubernetes audit logs
+ * **Feature:** EKS audit logs
 
 This finding informs you that a workload was launched with a container that included a sensitive host path in the `volumeMounts` section. This potentially makes the sensitive host path accessible and writable from inside the container. This technique is commonly used by unauthorized users to gain access to the host's file system. 
 

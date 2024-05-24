@@ -13,7 +13,7 @@ Execution:Kubernetes/AnomalousBehavior.WorkloadDeployed
 The default severity is Low. However, if the workload contains a potentially suspicious image name, such as a known pentest tool, or a container running a potentially suspicious command at launch, such as reverse shell commands, then the severity of this finding type will be considered as Medium.
 
 
- * **Feature:** Kubernetes audit logs
+ * **Feature:** EKS audit logs
 
 This finding informs you that a Kubernetes workload was created or modified in an anomalous way, such as an API activity, new container images, or risky workload configuration, within your Amazon EKS cluster. Unauthorized users can launch containers as a tactic to execute arbitrary code to first gain access to the host and then compromise it. 
 

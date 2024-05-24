@@ -8,7 +8,7 @@ PrivilegeEscalation:Kubernetes/PrivilegedContainer
 **Default severity: Medium**
 
 
- * **Feature:** Kubernetes audit logs
+ * **Feature:** EKS audit logs
 
 This finding informs you that a privileged container was launched on your Kubernetes cluster using an image has never before been used to launch privileged containers in your cluster. A privileged container has root level access to the host. Adversaries can launch privileged containers as a privilege escalation tactic to gain access to and then compromise the host. 
 

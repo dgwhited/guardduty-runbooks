@@ -8,7 +8,7 @@ Policy:Kubernetes/AnonymousAccessGranted
 **Default severity: High**
 
 
- * **Feature:** Kubernetes audit logs
+ * **Feature:** EKS audit logs
 
 This finding informs you that a user on your Kubernetes cluster successfully created a `ClusterRoleBinding` or `RoleBinding` to bind the user `system:anonymous` to a role. This enables unauthenticated access to the API operations permitted by the role. If this behavior is not expected, it may indicate a configuration mistake or that your credentials are compromised 
 

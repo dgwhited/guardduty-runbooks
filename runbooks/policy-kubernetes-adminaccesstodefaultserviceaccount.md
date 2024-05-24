@@ -8,7 +8,7 @@ Policy:Kubernetes/AdminAccessToDefaultServiceAccount
 **Default severity: High**
 
 
- * **Feature:** Kubernetes audit logs
+ * **Feature:** EKS audit logs
 
 This finding informs you that the default service account for a namespace in your Kubernetes cluster was granted admin privileges. Kubernetes creates a default service account for all the namespaces in the cluster. It automatically assigns the default service account as an identity to pods that have not been explicitly associated to another service account. If the default service account has admin privileges, it may result in pods being unintentionally launched with admin privileges. If this behavior is not expected, it may indicate a configuration mistake or that your credentials are compromised. 
 

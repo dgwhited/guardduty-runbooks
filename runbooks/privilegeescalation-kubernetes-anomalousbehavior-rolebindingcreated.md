@@ -13,7 +13,7 @@ PrivilegeEscalation:Kubernetes/AnomalousBehavior.RoleBindingCreated
 This finding's default severity is Medium. However, if a RoleBinding or ClusterRoleBinding involves the ClusterRoles `admin` or `cluster-admin`, the severity is High.
 
 
- * **Feature:** Kubernetes audit logs
+ * **Feature:** EKS audit logs
 
 This finding informs you that a user in your Kubernetes cluster created a `RoleBinding` or `ClusterRoleBinding` to bind a user to a role with admin permissions or sensitive namespaces. If this behavior is not expected, it may indicate either a configuration mistake or that your AWS credentials are compromised.
 

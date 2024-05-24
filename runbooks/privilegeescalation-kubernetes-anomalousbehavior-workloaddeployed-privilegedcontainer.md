@@ -8,7 +8,7 @@ PrivilegeEscalation:Kubernetes/AnomalousBehavior.WorkloadDeployed!PrivilegedCont
 **Default severity: High**
 
 
- * **Feature:** Kubernetes audit logs
+ * **Feature:** EKS audit logs
 
 This finding informs you that a workload was launched with a privileged container in your Amazon EKS cluster. A privileged container has root level access to the host. Unauthorized users can launch privileged containers as a privilege escalation tactic to first gain access to the host and then compromise it.
 
