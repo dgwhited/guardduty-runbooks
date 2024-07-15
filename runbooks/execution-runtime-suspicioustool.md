@@ -8,7 +8,7 @@ Execution:Runtime/SuspiciousTool
 **Default severity: Variable**
 
 
-The severity of this finding can be either high or low, depending on whether the detected suspicious tool is considered to be dual-use or is it exclusively for offensive use.
+The severity of this finding can be either high or low, depending on whether the detected suspicious tool is considered to be dual\-use or is it exclusively for offensive use.
 
 
  * **Feature:** Runtime Monitoring

@@ -2,7 +2,7 @@ CryptoCurrency:Lambda/BitcoinTool.B
 -----------------------------------
 
 
-### A Lambda function is querying an IP address that is associated with a cryptocurrency-related activity.
+### A Lambda function is querying an IP address that is associated with a cryptocurrency\-related activity.
 
 
 **Default severity: High**
@@ -10,7 +10,7 @@ CryptoCurrency:Lambda/BitcoinTool.B
 
  * **Feature:** Lambda Network Activity Monitoring
 
-This finding informs you that the listed Lambda function in your AWS environment is querying an IP address that is associated with a Bitcoin or other cryptocurrency-related activity. Threat actors may seek to take control over Lambda functions in order to maliciously repurpose them for unauthorized cryptocurrency mining. 
+This finding informs you that the listed Lambda function in your AWS environment is querying an IP address that is associated with a Bitcoin or other cryptocurrency\-related activity. Threat actors may seek to take control over Lambda functions in order to maliciously repurpose them for unauthorized cryptocurrency mining. 
 
 
 **Remediation recommendations:**

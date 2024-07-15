@@ -15,7 +15,7 @@ This finding's severity is low if your EC2 instance was the target of a brute fo
 
  * **Data source:** VPC flow logs
 
-This finding informs you that the listed EC2 instance in your AWS environment is performing a Windows Remote Management (WinRM) brute force attack aimed at gaining access to the Windows Remote Management service on Windows-based systems.
+This finding informs you that the listed EC2 instance in your AWS environment is performing a Windows Remote Management (WinRM) brute force attack aimed at gaining access to the Windows Remote Management service on Windows\-based systems.
 
 
 **Remediation recommendations:**

@@ -1,5 +1,5 @@
-Backdoor:EC2/C&CActivity.B!DNS
-------------------------------
+Backdoor:EC2/C\&CActivity.B!DNS
+-------------------------------
 
 
 ### An EC2 instance is querying a domain name that is associated with a known command and control server.
@@ -10,18 +10,18 @@ Backdoor:EC2/C&CActivity.B!DNS
 
  * **Data source:** DNS logs
 
-This finding informs you that the listed instance within your AWS environment is querying a domain name associated with a known command and control (C&C) server. The listed instance might be compromised. Command and control servers are computers that issue commands to members of a botnet. 
+This finding informs you that the listed instance within your AWS environment is querying a domain name associated with a known command and control (C\&C) server. The listed instance might be compromised. Command and control servers are computers that issue commands to members of a botnet. 
 
 
-A botnet is a collection of internet-connected devices which might include PCs, servers, mobile devices, and Internet of Things devices, that are infected and controlled by a common type of malware. Botnets are often used to distribute malware and gather misappropriated information, such as credit card numbers. Depending on the purpose and structure of the botnet, the C&C server might also issue commands to begin a distributed denial of service (DDoS) attack.
+A botnet is a collection of internet\-connected devices which might include PCs, servers, mobile devices, and Internet of Things devices, that are infected and controlled by a common type of malware. Botnets are often used to distribute malware and gather misappropriated information, such as credit card numbers. Depending on the purpose and structure of the botnet, the C\&C server might also issue commands to begin a distributed denial of service (DDoS) attack.
 
 
 ###### Note
 
-If the domain name queried is log4j-related, then the fields of the associated finding will include the following values:
+If the domain name queried is log4j\-related, then the fields of the associated finding will include the following values:
 
- * service.additionalInfo.threatListName = Amazon
-* service.additionalInfo.threatName = Log4j Related
+ * service.additionalInfo.threatListName \= Amazon
+* service.additionalInfo.threatName \= Log4j Related
 
 ###### Note
 

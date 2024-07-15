@@ -17,7 +17,7 @@ This finding informs you that the listed EC2 instance in your AWS environment is
 
 If the EC2 instance communicated on port 389 or port 1389, then the associated finding severity will be modified to High, and the finding fields will include the following value:
 
- * service.additionalInfo.context = Possible log4j callback
+ * service.additionalInfo.context \= Possible log4j callback
 
 **Remediation recommendations:**
 

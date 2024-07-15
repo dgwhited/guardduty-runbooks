@@ -15,12 +15,12 @@ This finding's severity is low if a brute force attack is aimed at one of your E
 
  * **Data source:** VPC flow logs
 
-This finding informs you that an EC2 instance in your AWS environment was involved in a brute force attack aimed at obtaining passwords to SSH services on Linux-based systems. This can indicate unauthorized access to your AWS resources. 
+This finding informs you that an EC2 instance in your AWS environment was involved in a brute force attack aimed at obtaining passwords to SSH services on Linux\-based systems. This can indicate unauthorized access to your AWS resources. 
 
 
 ###### Note
 
-This finding is generated only through monitoring traffic on port 22. If your SSH services are configured to use other ports, this finding is not generated.
+This finding is generated only through monitoring traffic on port 22\. If your SSH services are configured to use other ports, this finding is not generated.
 
 
 **Remediation recommendations:**

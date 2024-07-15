@@ -2,7 +2,7 @@ Trojan:EC2/DriveBySourceTraffic!DNS
 -----------------------------------
 
 
-### An EC2 instance is querying a domain name of a remote host that is a known source of Drive-By download attacks.
+### An EC2 instance is querying a domain name of a remote host that is a known source of Drive\-By download attacks.
 
 
 **Default severity: High**
@@ -10,7 +10,7 @@ Trojan:EC2/DriveBySourceTraffic!DNS
 
  * **Data source:** DNS logs
 
-This finding informs you that the listed EC2 instance in your AWS environment might be compromised because it is querying a domain name of a remote host that is a known source of drive-by download attacks. These are unintended downloads of computer software from the internet that can trigger an automatic installation of a virus, spyware, or malware.
+This finding informs you that the listed EC2 instance in your AWS environment might be compromised because it is querying a domain name of a remote host that is a known source of drive\-by download attacks. These are unintended downloads of computer software from the internet that can trigger an automatic installation of a virus, spyware, or malware.
 
 
 **Remediation recommendations:**

@@ -2,7 +2,7 @@ CryptoCurrency:EC2/BitcoinTool.B!DNS
 ------------------------------------
 
 
-### An EC2 instance is querying a domain name that is associated with cryptocurrency-related activity.
+### An EC2 instance is querying a domain name that is associated with cryptocurrency\-related activity.
 
 
 **Default severity: High**
@@ -10,7 +10,7 @@ CryptoCurrency:EC2/BitcoinTool.B!DNS
 
  * **Data source:** DNS logs
 
-This finding informs you that the listed EC2 instance in your AWS environment is querying a domain name that is associated with Bitcoin or other cryptocurrency-related activity. Bitcoin is a worldwide cryptocurrency and digital payment system that can be exchanged for other currencies, products, and services. Bitcoin is a reward for bitcoin-mining and is highly sought after by threat actors.
+This finding informs you that the listed EC2 instance in your AWS environment is querying a domain name that is associated with Bitcoin or other cryptocurrency\-related activity. Bitcoin is a worldwide cryptocurrency and digital payment system that can be exchanged for other currencies, products, and services. Bitcoin is a reward for bitcoin\-mining and is highly sought after by threat actors.
 
 
 **Remediation recommendations:**

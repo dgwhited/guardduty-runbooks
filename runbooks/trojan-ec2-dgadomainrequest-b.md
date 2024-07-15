@@ -13,7 +13,7 @@ Trojan:EC2/DGADomainRequest.B
 This finding informs you that the listed EC2 instance in your AWS environment is trying to query domain generation algorithm (DGA) domains. Your EC2 instance might be compromised.
 
 
-DGAs are used to periodically generate a large number of domain names that can be used as rendezvous points with their command and control (C&C) servers. Command and control servers are computers that issue commands to members of a botnet, which is a collection of internet-connected devices that are infected and controlled by a common type of malware. The large number of potential rendezvous points makes it difficult to effectively shut down botnets because infected computers attempt to contact some of these domain names every day to receive updates or commands.
+DGAs are used to periodically generate a large number of domain names that can be used as rendezvous points with their command and control (C\&C) servers. Command and control servers are computers that issue commands to members of a botnet, which is a collection of internet\-connected devices that are infected and controlled by a common type of malware. The large number of potential rendezvous points makes it difficult to effectively shut down botnets because infected computers attempt to contact some of these domain names every day to receive updates or commands.
 
 
 ###### Note

@@ -13,7 +13,7 @@ Execution:Runtime/MaliciousFileExecuted
 This finding informs you that a known malicious executable has been executed on Amazon EC2 instance or a container within your AWS environment. This is a strong indicator that the instance or container has been potentially compromised and that malware has been executed.
 
 
-Malware frequently uses anti-debugging techniques to evade analysis, and these techniques can be detected at runtime.
+Malware frequently uses anti\-debugging techniques to evade analysis, and these techniques can be detected at runtime.
 
 
 GuardDuty examines related runtime activity and context so that it generates this finding only when the associated activity and context are potentially suspicious.

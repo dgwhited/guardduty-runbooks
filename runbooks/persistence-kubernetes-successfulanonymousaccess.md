@@ -2,7 +2,7 @@ Persistence:Kubernetes/SuccessfulAnonymousAccess
 ------------------------------------------------
 
 
-### An API commonly used to obtain high-level permissions to a Kubernetes cluster was invoked by an unauthenticated user.
+### An API commonly used to obtain high\-level permissions to a Kubernetes cluster was invoked by an unauthenticated user.
 
 
 **Default severity: High**

@@ -15,7 +15,7 @@ This finding's severity is low if your EC2 instance was the target of a brute fo
 
  * **Data source:** VPC flow logs
 
-This finding informs you that an EC2 instance in your AWS environment was involved in a brute force attack aimed at obtaining passwords to RDP services on Windows-based systems. This can indicate unauthorized access to your AWS resources.
+This finding informs you that an EC2 instance in your AWS environment was involved in a brute force attack aimed at obtaining passwords to RDP services on Windows\-based systems. This can indicate unauthorized access to your AWS resources.
 
 
 **Remediation recommendations:**

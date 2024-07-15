@@ -2,7 +2,7 @@ Impact:EC2/BitcoinDomainRequest.Reputation
 ------------------------------------------
 
 
-### An EC2 instance is querying a low reputation domain name that is associated with cryptocurrency-related activity.
+### An EC2 instance is querying a low reputation domain name that is associated with cryptocurrency\-related activity.
 
 
 **Default severity: High**
@@ -10,7 +10,7 @@ Impact:EC2/BitcoinDomainRequest.Reputation
 
  * **Data source:** DNS logs
 
-This finding informs you that the listed Amazon EC2 instance within your AWS environment is querying a low reputation domain name associated with Bitcoin or other cryptocurrency-related activity. Bitcoin is a worldwide cryptocurrency and digital payment system that can be exchanged for other currencies, products, and services. Bitcoin is a reward for bitcoin-mining and is highly sought after by threat actors.
+This finding informs you that the listed Amazon EC2 instance within your AWS environment is querying a low reputation domain name associated with Bitcoin or other cryptocurrency\-related activity. Bitcoin is a worldwide cryptocurrency and digital payment system that can be exchanged for other currencies, products, and services. Bitcoin is a reward for bitcoin\-mining and is highly sought after by threat actors.
 
 
 Low reputation domains are based on a reputation score model. This model evaluates and ranks the characteristics of a domain to determine its likelihood of being malicious.

@@ -10,7 +10,7 @@ Backdoor:EC2/DenialOfService.Tcp
 
  * **Data source:** VPC flow logs
 
-This finding informs you that the listed EC2 instance within your AWS environment is generating a large volume of outbound TCP traffic. This may indicate that the instance is compromised and being used to perform denial-of-service (DoS) attacks using TCP protocol. 
+This finding informs you that the listed EC2 instance within your AWS environment is generating a large volume of outbound TCP traffic. This may indicate that the instance is compromised and being used to perform denial\-of\-service (DoS) attacks using TCP protocol. 
 
 
 ###### Note

@@ -10,7 +10,7 @@ Backdoor:EC2/DenialOfService.UdpOnTcpPorts
 
  * **Data source:** VPC flow logs
 
-This finding informs you that the listed EC2 instance within your AWS environment is generating a large volume of outbound UDP traffic targeted to a port that is typically used for TCP communication. This may indicate that the listed instance is compromised and being used to perform a denial-of-service (DoS) attacks using UDP protocol on a TCP port. 
+This finding informs you that the listed EC2 instance within your AWS environment is generating a large volume of outbound UDP traffic targeted to a port that is typically used for TCP communication. This may indicate that the listed instance is compromised and being used to perform a denial\-of\-service (DoS) attacks using UDP protocol on a TCP port. 
 
 
 ###### Note

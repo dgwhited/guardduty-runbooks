@@ -15,7 +15,7 @@ UnauthorizedAccess:Runtime/MetadataDNSRebind
 Presently, this finding type is only supported for AMD64 architecture.
 
 
-This finding informs you that an EC2 instance or a container in your AWS environment is querying a domain that resolves to the EC2 metadata IP address (169.254.169.254). A DNS query of this kind may indicate that the instance is a target of a DNS rebinding technique. This technique can be used to obtain metadata from an EC2 instance, including the IAM credentials associated with the instance.
+This finding informs you that an EC2 instance or a container in your AWS environment is querying a domain that resolves to the EC2 metadata IP address (169\.254\.169\.254\). A DNS query of this kind may indicate that the instance is a target of a DNS rebinding technique. This technique can be used to obtain metadata from an EC2 instance, including the IAM credentials associated with the instance.
 
 
 DNS rebinding involves tricking an application running on the EC2 instance to load return data from a URL, where the domain name in the URL resolves to the EC2 metadata IP address (`169.254.169.254`). This causes the application to access EC2 metadata and possibly make it available to the attacker. 

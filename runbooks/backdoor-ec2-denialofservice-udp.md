@@ -10,7 +10,7 @@ Backdoor:EC2/DenialOfService.Udp
 
  * **Data source:** VPC flow logs
 
-This finding informs you that the listed EC2 instance within your AWS environment is generating a large volume of outbound UDP traffic. This may indicate that the listed instance is compromised and being used to perform denial-of-service (DoS) attacks using UDP protocol. 
+This finding informs you that the listed EC2 instance within your AWS environment is generating a large volume of outbound UDP traffic. This may indicate that the listed instance is compromised and being used to perform denial\-of\-service (DoS) attacks using UDP protocol. 
 
 
 ###### Note

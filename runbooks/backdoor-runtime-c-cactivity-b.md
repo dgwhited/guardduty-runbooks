@@ -1,5 +1,5 @@
-Backdoor:Runtime/C&CActivity.B
-------------------------------
+Backdoor:Runtime/C\&CActivity.B
+-------------------------------
 
 
 ### An Amazon EC2 instance or a container is querying an IP that is associated with a known command and control server.
@@ -10,15 +10,15 @@ Backdoor:Runtime/C&CActivity.B
 
  * **Feature:** Runtime Monitoring
 
-This finding informs you that the listed EC2 instance or a container within your AWS environment is querying an IP associated with a known command and control (C&C) server. The listed instance or container might be potentially compromised. Command and control servers are computers that issue commands to members of a botnet. 
+This finding informs you that the listed EC2 instance or a container within your AWS environment is querying an IP associated with a known command and control (C\&C) server. The listed instance or container might be potentially compromised. Command and control servers are computers that issue commands to members of a botnet. 
 
 
-A botnet is a collection of internet-connected devices that might include PCs, servers, mobile devices, and Internet of Things devices, that are infected and controlled by a common type of malware. Botnets are often used to distribute malware and gather misappropriated information, such as credit card numbers. Depending on the purpose and structure of the botnet, the C&C server might also issue commands to begin a distributed denial of service (DDoS) attack.
+A botnet is a collection of internet\-connected devices that might include PCs, servers, mobile devices, and Internet of Things devices, that are infected and controlled by a common type of malware. Botnets are often used to distribute malware and gather misappropriated information, such as credit card numbers. Depending on the purpose and structure of the botnet, the C\&C server might also issue commands to begin a distributed denial of service (DDoS) attack.
 
 
 ###### Note
 
-If the IP queried is log4j-related, then the fields of the associated finding will include the following values:
+If the IP queried is log4j\-related, then the fields of the associated finding will include the following values:
 
  * `service.additionalInfo.threatListName = Amazon`
 * `service.additionalInfo.threatName = Log4j Related`
