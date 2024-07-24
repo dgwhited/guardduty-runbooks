@@ -13,6 +13,13 @@ Discovery:Kubernetes/MaliciousIPCaller
 This finding informs you that an API operation was invoked from an IP address that is associated with known malicious activity. The observed API is commonly used with the discovery stage of an attack wherein an attacker is gathering information to determine if your Kubernetes cluster is susceptible to a broader attack. 
 
 
+###### For unauthenticated access
+
+MaliciousIPCaller findings are not generated for unauthenticated access. 
+
+SuccessfulAnonymousAccess findings are generated for unauthenticated or anonymous access.
+
+
 **Remediation recommendations:**
 
 
