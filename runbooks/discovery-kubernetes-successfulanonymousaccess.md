@@ -13,6 +13,9 @@ Discovery:Kubernetes/SuccessfulAnonymousAccess
 This finding informs you that an API operation was successfully invoked by the `system:anonymous` user. API calls made by `system:anonymous` are unauthenticated. The observed API is commonly associated with the discovery stage of an attack when an adversary is gathering information on your Kubernetes cluster. This activity indicates that anonymous or unauthenticated access is permitted on the API action reported in the finding and may be permitted on other actions. If this behavior is not expected, it may indicate a configuration mistake or that your credentials are compromised. 
 
 
+This finding type excludes the health check API endpoints such as `/healthz`, `/livez`, `/readyz`, and `/version`.
+
+
 **Remediation recommendations:**
 
 
