@@ -13,7 +13,7 @@ UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.InsideAWS
 This finding's default severity is High. However, if the API was invoked by an account affiliated with your AWS environment, the severity is Medium.
 
 
- * **Data source:** CloudTrail management events or S3 data events
+ * **Data source:** CloudTrail management events or CloudTrail data events for S3
 
 This finding informs you when your EC2 instance credentials are used to invoke APIs from an IP address that is owned by a different AWS account than the one that the associated EC2 instance is running in.
 

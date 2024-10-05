@@ -8,7 +8,7 @@ UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.OutsideAWS
 **Default severity: High**
 
 
- * **Data source:** CloudTrail management events or S3 data events
+ * **Data source:** CloudTrail management events or CloudTrail data events for S3
 
 This finding informs you that a host outside of AWS has attempted to run AWS API operations using temporary AWS credentials that were created on an EC2 instance in your AWS environment. The listed EC2 instance might be compromised, and the temporary credentials from this instance might have been exfiltrated to a remote host outside of AWS. AWS does not recommend redistributing temporary credentials outside of the entity that created them (for example, AWS applications, EC2, or Lambda). However, authorized users can export credentials from their EC2 instances to make legitimate API calls. To rule out a potential attack and verify the legitimacy of the activity, validate if the use of instance credentials from the remote IP in the finding is expected. 
 
