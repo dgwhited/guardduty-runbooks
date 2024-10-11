@@ -23,7 +23,7 @@ If the IP queried is log4j\-related, then the fields of the associated finding w
  * `service.additionalInfo.threatListName = Amazon`
 * `service.additionalInfo.threatName = Log4j Related`
 
-The runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
+The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
 
 
 **Remediation recommendations:**

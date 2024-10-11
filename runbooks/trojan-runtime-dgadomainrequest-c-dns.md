@@ -21,7 +21,7 @@ DGAs are used to periodically generate a large number of domain names that can b
 This finding is based on known DGA domains from GuardDuty threat intelligence feeds.
 
 
-The runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
+The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
 
 
 **Remediation recommendations:**

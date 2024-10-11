@@ -25,7 +25,7 @@ This finding may indicate that a malicious actor has attempted to perform exploi
  * A new container with an attacker\-controlled image.
 * An existing container that was accessible to the actor with write permissions on the host level runC binary.
 
-The runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
+The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
 
 
 **Remediation recommendations:**

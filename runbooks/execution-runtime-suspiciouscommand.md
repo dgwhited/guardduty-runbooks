@@ -19,7 +19,7 @@ This finding informs you that a suspicious command has been executed and it indi
 GuardDuty examines related runtime activity and context so that it generates this finding only when the associated activity and context are potentially suspicious.
 
 
-The runtime agent monitors events from multiple resources. To identify the affected resource, view **Resource type** in the findings details in the GuardDuty console.
+The GuardDuty runtime agent monitors events from multiple resources. To identify the affected resource, view **Resource type** in the findings details in the GuardDuty console.
 
 
 **Remediation recommendations:**
