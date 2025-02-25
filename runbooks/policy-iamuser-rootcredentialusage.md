@@ -1,5 +1,3 @@
-
-
 Policy:IAMUser/RootCredentialUsage
 ----------------------------------
 
@@ -18,4 +16,3 @@ If S3 Protection is enabled for the account, then this finding may be generated 
 **Remediation recommendations:**
 
 If this activity is unexpected, your credentials may be compromised. For more information, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-

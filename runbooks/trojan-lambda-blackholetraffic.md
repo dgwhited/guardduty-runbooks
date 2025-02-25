@@ -1,5 +1,3 @@
-
-
 Trojan:Lambda/BlackholeTraffic
 ------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you that a listed Lambda function within your AWS environme
 **Remediation recommendations:**
 
 If this activity is unexpected, your Lambda function may be compromised. For more information, see [Remediating a potentially compromised Lambda function](https://docs.aws.amazon.com/guardduty/latest/ug/remediate-lambda-protection-finding-types.html).
-

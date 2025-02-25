@@ -1,5 +1,3 @@
-
-
 Backdoor:Lambda/C&CActivity.B
 -----------------------------
 
@@ -16,4 +14,3 @@ A botnet is a collection of internet-connected devices, which might include PCs,
 **Remediation recommendations:**
 
 If this activity is unexpected, your Lambda function may be compromised. For more information, see [Remediating a potentially compromised Lambda function](https://docs.aws.amazon.com/guardduty/latest/ug/remediate-lambda-protection-finding-types.html).
-

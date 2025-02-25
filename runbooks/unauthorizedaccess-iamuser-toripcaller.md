@@ -1,5 +1,3 @@
-
-
 UnauthorizedAccess:IAMUser/TorIPCaller
 --------------------------------------
 
@@ -14,5 +12,3 @@ This finding informs you that an API operation (for example, an attempt to launc
 **Remediation recommendations:**
 
 If this activity is unexpected, your credentials may be compromised. For more information, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-
-

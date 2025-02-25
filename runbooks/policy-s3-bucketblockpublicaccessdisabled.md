@@ -1,5 +1,3 @@
-
-
 Policy:S3/BucketBlockPublicAccessDisabled
 -----------------------------------------
 
@@ -16,4 +14,3 @@ Typically, S3 Block Public Access is turned off on a bucket to allow public acce
 **Remediation recommendations:**
 
 If this activity is unexpected for the associated principal, it may indicate that the credentials have been exposed or your S3 permissions are not restrictive enough. For more information, see [Remediating a potentially compromised S3 bucket](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-s3.html).
-

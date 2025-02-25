@@ -1,5 +1,3 @@
-
-
 Recon:EC2/PortProbeUnprotectedPort
 ----------------------------------
 
@@ -10,7 +8,6 @@ Recon:EC2/PortProbeUnprotectedPort
 ###### Note
 
 This finding's default severity is Low. However, if the port that is being probed, is used by Elasticsearch (9200 or 9300), the finding's severity is High.
-
 
 * **Data source:** VPC flow logs
 
@@ -25,4 +22,3 @@ GuardDuty doesn't generate this finding for ports 443 and 80.
 There may be cases in which instances are intentionally exposed, for example if they are hosting web servers. If this is the case in your AWS environment, we recommend that you set up a suppression rule for this finding. The suppression rule should consist of two filter criteria. The first criteria should use the **Finding type** attribute with a value of `Recon:EC2/PortProbeUnprotectedPort`. The second filter criteria should match the instance or instances that serve as a bastion host. You can use either the **Instance image ID** attribute or the **Tag** value attribute, depending on which criteria is identifiable with the instances that host these tools. For more information about creating suppression rules see [Suppression rules in GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/findings_suppression-rule.html).
 
 If this activity is unexpected, your instance is likely compromised, see [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

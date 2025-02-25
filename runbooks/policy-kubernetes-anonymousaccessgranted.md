@@ -1,5 +1,3 @@
-
-
 Policy:Kubernetes/AnonymousAccessGranted
 ----------------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you that a user on your Kubernetes cluster successfully cre
 **Remediation recommendations:**
 
 You should examine the permissions that have been granted to the `system:anonymous` user or `system:unauthenticated` group on your cluster and revoke unnecessary anonymous access. For more information, see [Security best practices for Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/security-best-practices.html) in the *Amazon EKS User Guide*. If the permissions were granted maliciously, you should revoke access of the user that granted the permissions and reverse any changes made by an adversary to your cluster. For more information, see [Remediating EKS Protection findings](./guardduty-remediate-kubernetes.html).
-

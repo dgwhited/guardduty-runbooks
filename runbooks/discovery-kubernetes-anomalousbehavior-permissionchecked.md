@@ -1,5 +1,3 @@
-
-
 Discovery:Kubernetes/AnomalousBehavior.PermissionChecked
 --------------------------------------------------------
 
@@ -18,5 +16,3 @@ The observed API was identified as anomalous by the GuardDuty anomaly detection 
 Examine the permissions granted to the Kubernetes user to ensure that all the permissions are needed. If the permissions were granted mistakenly or maliciously, revoke user access and reverse any changes made by an unauthorized user to your cluster. For more information, see [Remediating EKS Protection findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-kubernetes.html).
 
 If your AWS credentials are compromised, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-
-

@@ -1,5 +1,3 @@
-
-
 UnauthorizedAccess:EC2/SSHBruteForce
 ------------------------------------
 
@@ -10,7 +8,6 @@ UnauthorizedAccess:EC2/SSHBruteForce
 ###### Note
 
 This finding's severity is low if a brute force attack is aimed at one of your EC2 instances. This finding's severity is high if your EC2 instance is being used to perform the brute force attack.
-
 
 * **Data source:** VPC flow logs
 
@@ -27,4 +24,3 @@ If the target of the brute force attempt is a bastion host, this may represent e
 If this activity is not expected for your environment and your instance's **Resource Role** is `TARGET`, this finding can be remediated by securing your SSH port to only trusted IPs through Security Groups, ACLs, or firewalls. For more information, see [Tips for securing your EC2 instances (Linux)](https://aws.amazon.com/articles/tips-for-securing-your-ec2-instance/).
 
 If your instance's **Resource Role** is `ACTOR`, this indicates the instance has been used to perform SSH brute force attacks. Unless this instance has a legitimate reason to be contacting the IP address listed as the `Target`, it is recommended that you assume your instance has been compromised and take the actions listed in [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

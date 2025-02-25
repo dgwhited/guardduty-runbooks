@@ -1,5 +1,3 @@
-
-
 Execution:Container/SuspiciousFile
 ----------------------------------
 
@@ -18,5 +16,3 @@ When a suspicious file has been detected, evaluate whether you expect to see the
 **Remediation recommendations:**
 
 If this activity is unexpected, your container workload may be compromised. For more information, see [Remediating a potentially compromised standalone container](https://docs.aws.amazon.com/guardduty/latest/ug/remediate-compromised-standalone-container.html).
-
-

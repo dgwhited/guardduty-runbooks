@@ -1,5 +1,3 @@
-
-
 Trojan:EC2/DGADomainRequest.C!DNS
 ---------------------------------
 
@@ -20,4 +18,3 @@ This finding is based on known DGA domains from GuardDuty's threat intelligence 
 **Remediation recommendations:**
 
 If this activity is unexpected, your instance may be compromised. For more information, see [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

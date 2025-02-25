@@ -1,5 +1,3 @@
-
-
 Execution:Kubernetes/AnomalousBehavior.WorkloadDeployed
 -------------------------------------------------------
 
@@ -10,7 +8,6 @@ Execution:Kubernetes/AnomalousBehavior.WorkloadDeployed
 ###### Note
 
 The default severity is Low. However, if the workload contains a potentially suspicious image name, such as a known pentest tool, or a container running a potentially suspicious command at launch, such as reverse shell commands, then the severity of this finding type will be considered as Medium.
-
 
 * **Feature:** EKS audit logs
 
@@ -25,4 +22,3 @@ If this container launch is unexpected, the credentials of the user identity use
 If your AWS credentials are compromised, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
 
 If this container launch is expected, it is recommended that you use a suppression rule with a filter criteria based on the `resource.KubernetesDetails.KubernetesWorkloadDetails.containers.imagePrefix` field. In the filter criteria, the `imagePrefix` field must have the same value as the `imagePrefix` field specified in the finding. For more information, see [Suppression rules in GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/findings_suppression-rule.html).
-

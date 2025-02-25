@@ -1,5 +1,3 @@
-
-
 UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.InsideAWS
 -------------------------------------------------------------------
 
@@ -10,7 +8,6 @@ UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.InsideAWS
 ###### Note
 
 This finding's default severity is High. However, if the API was invoked by an account affiliated with your AWS environment, the severity is Medium.
-
 
 * **Data source:** CloudTrail management events or CloudTrail data events for S3
 
@@ -31,8 +28,8 @@ In response to this finding you can use the following workflow to determine a co
 1. Identify the remote account involved from the `service.action.awsApiCallAction.remoteAccountDetails.accountId` field.
 2. Determine if that account is affiliated with your GuardDuty environment from the `service.action.awsApiCallAction.remoteAccountDetails.affiliated` field.
 3. If the account **is** affiliated, contact the remote account owner and the owner of the Amazon EC2 instance credentials to investigate.
-   
+
    If the account **is not** affiliated, then the first step is to evaluate if that account is associated with your organization but is not a part of your GuardDuty multiple-account environment set up, or if GuardDuty has not yet been enabled in this account. Next, contact the owner of the Amazon EC2 instance credentials to determine if there is a use case for a remote account to use these credentials.
 4. If the owner of the credentials does not recognize the remote account the credentials may have been compromised by a threat actor operating within AWS. You should take the steps recommended in [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html), to secure your environment.
-   
+
    Additionally, you can [submit an abuse report](https://support.aws.amazon.com/#/contacts/report-abuse) to the AWS Trust and Safety team to begin an investigation into the remote account. When submitting your report to AWS Trust and Safety, include the full JSON details of the finding.

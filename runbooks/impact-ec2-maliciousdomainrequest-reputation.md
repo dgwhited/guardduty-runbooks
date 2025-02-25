@@ -1,5 +1,3 @@
-
-
 Impact:EC2/MaliciousDomainRequest.Reputation
 --------------------------------------------
 
@@ -16,4 +14,3 @@ Low reputation domains are based on a reputation score model. This model evaluat
 **Remediation recommendations:**
 
 If this activity is unexpected, your instance may be compromised. For more information, see [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

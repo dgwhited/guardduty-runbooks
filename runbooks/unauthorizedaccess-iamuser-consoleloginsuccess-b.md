@@ -1,5 +1,3 @@
-
-
 UnauthorizedAccess:IAMUser/ConsoleLoginSuccess.B
 ------------------------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you that multiple successful console logins for the same IA
 **Remediation recommendations:**
 
 If this activity is unexpected, your credentials may be compromised. For more information, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-

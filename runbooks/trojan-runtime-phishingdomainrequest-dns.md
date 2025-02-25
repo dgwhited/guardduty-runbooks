@@ -1,5 +1,3 @@
-
-
 Trojan:Runtime/PhishingDomainRequest!DNS
 ----------------------------------------
 
@@ -16,4 +14,3 @@ The GuardDuty runtime agent monitors events from multiple resource types. To ide
 **Remediation recommendations:**
 
 If this activity is unexpected, your resource might have been compromised. For more information, see [Remediating Runtime Monitoring findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-runtime-monitoring.html).
-

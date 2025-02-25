@@ -1,5 +1,3 @@
-
-
 InitialAccess:IAMUser/AnomalousBehavior
 ---------------------------------------
 
@@ -16,4 +14,3 @@ This API request was identified as anomalous by GuardDuty's anomaly detection ma
 **Remediation recommendations:**
 
 If this activity is unexpected, your credentials may be compromised. For more information, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-

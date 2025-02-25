@@ -1,5 +1,3 @@
-
-
 Discovery:Kubernetes/TorIPCaller
 --------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you that an API was invoked from a Tor exit node IP address
 **Remediation recommendations:**
 
 If the user reported in the finding under the `KubernetesUserDetails` section is `system:anonymous`, investigate why the anonymous user was permitted to invoke the APIand revoke the permissions, if needed, by following the instructions in [Security best practices for Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/security-best-practices.html) in the *Amazon EKS User Guide*. If the user is an authenticated user, investigate to determine if the activity was legitimate or malicious. If the activity was malicious revoke access of the user and reverse any changes made by an adversary to your cluster. For more information, see [Remediating EKS Protection findings](./guardduty-remediate-kubernetes.html).
-

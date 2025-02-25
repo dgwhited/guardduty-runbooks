@@ -1,5 +1,3 @@
-
-
 Backdoor:EC2/C&CActivity.B
 --------------------------
 
@@ -23,4 +21,3 @@ If the IP queried is log4j-related, then fields of the associated finding will i
 **Remediation recommendations:**
 
 If this activity is unexpected, your instance may be compromised. For more information, see [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

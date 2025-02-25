@@ -1,5 +1,3 @@
-
-
 Trojan:Runtime/BlackholeTraffic!DNS
 -----------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you the listed EC2 instance or the container in your AWS en
 The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
 
 If this activity is unexpected, your resource might have been compromised. For more information, see [Remediating Runtime Monitoring findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-runtime-monitoring.html).
-

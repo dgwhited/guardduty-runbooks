@@ -1,5 +1,3 @@
-
-
 CredentialAccess:RDS/AnomalousBehavior.FailedLogin
 --------------------------------------------------
 
@@ -16,4 +14,3 @@ These failed logins were identified as anomalous by the GuardDuty anomaly detect
 **Remediation recommendations:**
 
 If this activity is unexpected for the associated database, it may indicate that the database is publicly exposed or there is an overly permissive access policy to the database. It is recommended to place the database in a private VPC, and limit the security group rules to allow traffic only from the necessary sources. For more information, see [Remediating potentially compromised database with failed login events](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-compromised-database-rds.html#gd-compromised-db-failed-attempt).
-

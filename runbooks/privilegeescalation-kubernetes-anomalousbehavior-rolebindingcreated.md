@@ -1,5 +1,3 @@
-
-
 PrivilegeEscalation:Kubernetes/AnomalousBehavior.RoleBindingCreated
 -------------------------------------------------------------------
 
@@ -10,7 +8,6 @@ PrivilegeEscalation:Kubernetes/AnomalousBehavior.RoleBindingCreated
 ###### Note
 
 This finding's default severity is Medium. However, if a RoleBinding or ClusterRoleBinding involves the ClusterRoles `admin` or `cluster-admin`, the severity is High.
-
 
 * **Feature:** EKS audit logs
 
@@ -23,4 +20,3 @@ The observed API was identified as anomalous by the GuardDuty anomaly detection 
 Examine the permissions granted to the Kubernetes user. These permissions are defined in the role and subjects involved in `RoleBinding` and `ClusterRoleBinding`. If the permissions were granted mistakenly or maliciously, revoke user access and reverse any changes made by an unauthorized user to your cluster. For more information, see [Remediating EKS Protection findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-kubernetes.html).
 
 If your AWS credentials are compromised, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-

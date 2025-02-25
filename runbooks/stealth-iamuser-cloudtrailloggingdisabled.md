@@ -1,5 +1,3 @@
-
-
 Stealth:IAMUser/CloudTrailLoggingDisabled
 -----------------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you that a CloudTrail trail within your AWS environment was
 **Remediation recommendations:**
 
 If this activity is unexpected, your credentials may be compromised. For more information, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-

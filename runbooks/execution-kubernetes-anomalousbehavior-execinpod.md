@@ -1,5 +1,3 @@
-
-
 Execution:Kubernetes/AnomalousBehavior.ExecInPod
 ------------------------------------------------
 
@@ -18,4 +16,3 @@ The observed API was identified as anomalous by the GuardDuty anomaly detection 
 If the execution of this command is unexpected, the credentials of the user identity used to execute the command may have been compromised. Revoke user access and reverse any changes made by an unauthorized user to your cluster. For more information, see [Remediating EKS Protection findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-kubernetes.html).
 
 If your AWS credentials are compromised, see [Remediating potentially compromised AWS credentials](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-creds.html).
-

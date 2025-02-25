@@ -1,5 +1,3 @@
-
-
 DefenseEvasion:EC2/UnusualDNSResolver
 -------------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you that the listed Amazon EC2 instance in your AWS environ
 **Remediation recommendations:**
 
 If this activity is unexpected, your instance may be compromised. For more information, see [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

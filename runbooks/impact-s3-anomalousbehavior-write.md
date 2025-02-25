@@ -1,5 +1,3 @@
-
-
 Impact:S3/AnomalousBehavior.Write
 ---------------------------------
 
@@ -18,4 +16,3 @@ This API was identified as anomalous by GuardDuty's anomaly detection machine le
 If this activity is unexpected for the associated principal, it may indicate that the credentials have been exposed or your S3 permissions are not restrictive enough. For more information, see [Remediating a potentially compromised S3 bucket](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-s3.html).
 
 We recommend an audit of your S3 bucket's contents to ensure that this API call didn't write malicious or unauthorized data.
-

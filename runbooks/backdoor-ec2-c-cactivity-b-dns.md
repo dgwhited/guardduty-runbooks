@@ -1,5 +1,3 @@
-
-
 Backdoor:EC2/C&CActivity.B!DNS
 ------------------------------
 
@@ -27,4 +25,3 @@ To test how GuardDuty generates this finding type, you can make a DNS request fr
 **Remediation recommendations:**
 
 If this activity is unexpected, your instance may be compromised. For more information, see [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

@@ -1,5 +1,3 @@
-
-
 Behavior:EC2/NetworkPortUnusual
 -------------------------------
 
@@ -20,4 +18,3 @@ If the EC2 instance communicated on port 389 or port 1389, then the associated f
 **Remediation recommendations:**
 
 If this activity is unexpected, your instance may be compromised. For more information, see [Remediating a potentially compromised Amazon EC2 instance](https://docs.aws.amazon.com/guardduty/latest/ug/compromised-ec2.html).
-

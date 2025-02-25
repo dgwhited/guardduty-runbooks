@@ -1,5 +1,3 @@
-
-
 CredentialAccess:RDS/AnomalousBehavior.SuccessfulLogin
 ------------------------------------------------------
 
@@ -24,4 +22,3 @@ This successful login was identified as anomalous by the GuardDuty anomaly detec
 **Remediation recommendations:**
 
 If this activity is unexpected for the associated database, it is recommended to change the password of the associated database user, and review available audit logs for activity performed by the anomalous user. Medium and high severity findings may indicate that there is an overly permissive access policy to the database, and user credentials may have been exposed or compromised. It is recommended to place the database in a private VPC, and limit the security group rules to allow traffic only from the necessary sources. For more information, see [Remediating potentially compromised database with successful login events](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty-remediate-compromised-database-rds.html#gd-compromised-db-successful-attempt).
-

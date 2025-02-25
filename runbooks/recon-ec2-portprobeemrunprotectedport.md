@@ -1,5 +1,3 @@
-
-
 Recon:EC2/PortProbeEMRUnprotectedPort
 -------------------------------------
 
@@ -14,4 +12,3 @@ This finding informs you that an EMR related sensitive port on the listed EC2 in
 **Remediation recommendations:**
 
 You should block open access to ports on clusters from the internet and restrict access only to specific IP addresses that require access to these ports. For more information see, [Security Groups for EMR Clusters](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-security-groups.html).
-

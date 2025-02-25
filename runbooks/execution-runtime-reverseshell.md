@@ -1,5 +1,3 @@
-
-
 Execution:Runtime/ReverseShell
 ------------------------------
 
@@ -14,4 +12,3 @@ A reverse shell is a shell session created on a connection that is initiated fro
 **Remediation recommendations:**
 
 If this activity is unexpected, your resource type might have been compromised.
-
