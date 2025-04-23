@@ -7,13 +7,13 @@ PrivilegeEscalation:Runtime/SuspiciousCommand
 
 * **Feature:** Runtime Monitoring
 
-This finding informs you that a suspicious command has been executed on an Amazon EC2 instance or in a container within your AWS environment. The command attempts to perform privilege escalation, which allows an adversary to perform high privilege tasks.
+This finding informs you that a process running on the listed Amazon EC2 instance or in a container within your AWS environment has executed a suspicious command. The command attempts to perform privilege escalation, which allows an adversary to perform high privilege tasks.
 
 GuardDuty examines related runtime activity and context, and generates this finding type only when the associated activity and context are unusual or suspicious.
 
 The Amazon EC2 instance or the container that is listed in the finding detail might have been compromised.
 
-The GuardDuty runtime agent monitors events from multiple resources. To identify the affected resource, view **Resource type** in the findings details in the GuardDuty console.
+The GuardDuty runtime agent monitors events from multiple resources. To identify the affected resource, view **Resource type** in the findings details in the GuardDuty console. When applicable, additional context, including process and process lineage information, is available in the finding for further investigation.
 
 **Remediation recommendations:**
 

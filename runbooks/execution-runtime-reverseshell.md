@@ -9,7 +9,7 @@ Execution:Runtime/ReverseShell
 
 A reverse shell is a shell session created on a connection that is initiated from the target host to the actor's host. This is opposite to a normal shell that is initiated from the actor's host to the target's host. Threat actors create a reverse shell to execute commands on the target after gaining initial access to the target. This finding identifies potentially suspicious reverse shell connections.
 
-GuardDuty examines related runtime activity and context, and generates this finding type only when the associated activity and context are found to be unusual or suspicious.
+GuardDuty examines related runtime activity and context, and generates this finding type only when the associated activity and context are found to be unusual or suspicious. Additional context, including process and process lineage information, is available in the finding for further investigation.
 
 **Remediation recommendations:**
 

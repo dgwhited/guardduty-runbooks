@@ -13,7 +13,7 @@ While GuardDuty is designed to not generate this finding type for activities inv
 
 GuardDuty examines related runtime activity and context, and generates this finding type only when the associated activity and context are unusual or suspicious.
 
-The GuardDuty runtime agent monitors events from multiple resources. To identify the affected resource, view **Resource type** in the findings details in the GuardDuty console.
+The GuardDuty runtime agent monitors events from multiple resources. To identify the affected resource, view **Resource type** in the findings details in the GuardDuty console. Additional context, including process and process lineage information, is available in the finding for further investigation.
 
 **Remediation recommendations:**
 

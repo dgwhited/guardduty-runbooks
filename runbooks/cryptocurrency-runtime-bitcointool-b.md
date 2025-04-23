@@ -7,9 +7,9 @@ CryptoCurrency:Runtime/BitcoinTool.B
 
 * **Feature:** Runtime Monitoring
 
-This finding informs you that the listed EC2 instance or a container in your AWS environment is querying an IP Address that is associated with a cryptocurrency-related activity. Threat actors may seek to take control over compute resources to maliciously repurpose them for unauthorized cryptocurrency mining.
+This finding informs you that a process running on the listed EC2 instance or a container in your AWS environment is querying an IP address that is associated with a cryptocurrency-related activity. Threat actors may seek to take control over compute resources to maliciously repurpose them for unauthorized cryptocurrency mining.
 
-The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console.
+The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings panel in the GuardDuty console. Additional context, including process and process lineage information, is available in the finding for further investigation.
 
 **Remediation recommendations:**
 

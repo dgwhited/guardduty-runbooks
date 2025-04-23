@@ -7,7 +7,7 @@ Discovery:Runtime/SuspiciousCommand
 
 **Feature:** Runtime Monitoring
 
-This finding informs you that the listed Amazon EC2 instance or container in your AWS environment has executed a command that might provide an attacker with crucial information to potentially advance the attack. The following information may have been retrieved:
+This finding informs you that a process running on the listed Amazon EC2 instance or container in your AWS environment has executed a command that might provide an attacker with crucial information to potentially advance the attack. The following information may have been retrieved:
 
 * Local system such as user or network configuration,
 * Other available AWS resources and permissions, or
@@ -15,7 +15,7 @@ This finding informs you that the listed Amazon EC2 instance or container in you
 
 The Amazon EC2 instance or the container that is listed in the finding detail might have been compromised.
 
-The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings details in the GuardDuty console. You can find the details about the suspicious command in the `service.runtimeDetails.context` field of the finding JSON.
+The GuardDuty runtime agent monitors events from multiple resource types. To identify the potentially compromised resource, view **Resource type** in the findings details in the GuardDuty console. You can find the details about the suspicious command in the `service.runtimeDetails.context` field of the finding JSON. Additional context, including process and process lineage information, is available in the finding for further investigation.
 
 **Remediation recommendations:**
 
