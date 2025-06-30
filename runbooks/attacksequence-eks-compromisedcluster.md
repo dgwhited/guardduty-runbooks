@@ -6,7 +6,7 @@ AttackSequence:EKS/CompromisedCluster
 * Default severity: Critical
 * Data sources:
 
-  + [EKS audit log events](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty/latest/ug/kubernetes-protection.html#guardduty_k8s-audit-logs)
+  + [EKS audit log events](https://docs.aws.amazon.com/guardduty/latest/ug/kubernetes-protection.html#guardduty_k8s-audit-logs)
   + [Runtime Monitoring for Amazon EKS](https://docs.aws.amazon.com/guardduty/latest/ug/how-runtime-monitoring-works-eks.html)
   + [Amazon EKS malware detection for Amazon EC2](https://docs.aws.amazon.com/guardduty/latest/ug/malware-protection.html)
   + [AWS CloudTrail data events for S3](./s3-protection.html#guardduty_s3dataplane)
