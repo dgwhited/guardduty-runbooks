@@ -7,7 +7,7 @@ UnauthorizedAccess:IAMUser/MaliciousIPCaller.Custom
 
 * **Data source:** CloudTrail management events
 
-This finding informs you that an API operation (for example, an attempt to launch an EC2 instance, create a new IAM user, or modify AWS privileges) was invoked from an IP address that is included on a threat list that you uploaded. In , a threat list consists of known malicious IP addresses. This can indicate unauthorized access to AWS resources within your environment.
+This finding informs you that an API operation (for example, an attempt to launch an EC2 instance, create a new IAM user, or modify AWS privileges) was invoked from an IP address that is included on a threat list that you uploaded. In GuardDuty, a threat list consists of known malicious IP addresses. This can indicate unauthorized access to AWS resources within your environment.
 
 **Remediation recommendations:**
 
