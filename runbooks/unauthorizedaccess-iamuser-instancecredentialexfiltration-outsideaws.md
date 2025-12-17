@@ -11,7 +11,7 @@ This finding informs you that a host outside of AWS has attempted to run AWS API
 
 ###### Note
 
-If GuardDuty observes continued activity from a remote account, its machine learning (ML) model will identify this as an expected behavior. Therefore, GuardDuty will stop generating this finding for activity from that remote account. GuardDuty will continue to generate findings for new behavior from other remote accounts and will re-evaluate learned remote accounts as the behavior changes over time.
+If GuardDuty observes continued activity from a remote host, its machine learning (ML) model will identify this as an expected behavior. Therefore, GuardDuty will stop generating this finding for activity from that remote host. GuardDuty will continue to generate findings for new behavior from other remote hosts and will re-evaluate learned remote hosts as the behavior changes over time.
 
 **Remediation recommendations:**
 
